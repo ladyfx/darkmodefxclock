@@ -1,20 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
-
-/* Dark Mode Base */
-body {
-    font-family: Kanit, sans-serif;
-    text-align: center;
-    background-color: #121212; /* Dark background */
-    color: #f0f0f0; /* Light text color */
-}
-
 .clock-container {
-    background-color: #1e1e1e; /* Slightly lighter dark background */
+    background-color: #2b2b2b; /* Use a lighter shade of dark gray */
+    color: #ffffff; /* Light text to maintain readability */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
     max-width: 350px;
     margin: auto;
     display: flex;
@@ -23,20 +12,7 @@ body {
     justify-content: center;
 }
 
-/* Styling for Date */
-.date {
-    font-family: Kanit, sans-serif;
-    font-size: 18px;
-    margin-bottom: 5px;
-    color: #bbbbbb; /* Muted light grey text */
-}
-
-/* Time and Session Display */
-.time-and-session {
-    display: flex;
-    align-items: center;
-}
-
+/* Styling for Time */
 .time {
     font-size: 48px;
     font-weight: bold;
@@ -44,16 +20,15 @@ body {
     margin-right: 10px;
 }
 
-.session {
+/* Styling for Date */
+.date {
     font-family: Kanit, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    color: #bbbbbb; /* Slightly muted text */
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #bbbbbb; /* Muted gray text */
 }
 
-/* Next Session Styling */
-.next-session {
-    font-family: Kanit, sans-serif;
-    font-size: 12px;
-    color: #888888; /* Subtle muted color */
+/* Optional: Add a border around the clock container */
+.clock-container {
+    border: 2px solid #444444; /* A border to visually separate it */
 }
