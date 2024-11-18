@@ -1,6 +1,13 @@
+body {
+    font-family: Kanit, sans-serif;
+    text-align: center;
+    background-color: #121212; /* Main background */
+    color: #f0f0f0;
+}
+
 .clock-container {
-    background-color: #2b2b2b; /* Use a lighter shade of dark gray */
-    color: #ffffff; /* Light text to maintain readability */
+    background-color: #191919; /* Matches Notion's dark mode */
+    color: #ffffff; /* Text color for readability */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
@@ -10,25 +17,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 2px solid #222222; /* Optional border to create subtle contrast */
 }
 
-/* Styling for Time */
 .time {
     font-size: 48px;
     font-weight: bold;
-    color: #f0f0f0; /* Light text */
+    color: #f0f0f0;
     margin-right: 10px;
 }
 
-/* Styling for Date */
 .date {
-    font-family: Kanit, sans-serif;
     font-size: 18px;
     margin-bottom: 5px;
-    color: #bbbbbb; /* Muted gray text */
+    color: #bbbbbb; /* Slightly muted text for secondary info */
 }
 
-/* Optional: Add a border around the clock container */
-.clock-container {
-    border: 2px solid #444444; /* A border to visually separate it */
+.session {
+    font-size: 24px;
+    font-weight: 400;
+    color: #f0f0f0; /* Keeps the session text readable */
+}
+
+.next-session {
+    font-size: 12px;
+    color: #888888; /* Subtle muted text for future session */
 }
